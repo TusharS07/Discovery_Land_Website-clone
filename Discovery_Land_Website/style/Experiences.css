@@ -1,55 +1,55 @@
 * {
     box-sizing: border-box;
     margin: 0%;
-  }
-  
-  body {
+}
+
+body {
     display: block;
     padding: 0%;
     margin: 0%;
     /* background-color: #111;
     overflow-x: hidden; */
     width: 100%;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     /* color: white; */
-  }
-  
+}
+
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 180px;
-  }
-  
-  .mainheader {
+}
+
+.mainheader {
     position: absolute;
     z-index: 1;
     margin-right: 100px;
-  }
-  
-  
-  .navbar {
+}
+
+
+.navbar {
     padding: 15px;
     /* font-size: small;
       font-weight: 500; */
     background-color: transparent;
     font-size: 25px;
-  
-  }
-  
-  
-  #logo {
+
+}
+
+
+#logo {
     cursor: pointer;
-  }
+}
 
 
-  /***********************************/
+/***********************************/
 
 
-  /****************************************************/
+/****************************************************/
 
 .footer-main {
     display: flex;
@@ -58,9 +58,9 @@ header {
     background-color: #161f1e;
     align-items: center;
     justify-content: space-around;
-  }
-  
-  .footer-sub {
+}
+
+.footer-sub {
     display: flex;
     flex-direction: row;
     height: 300px;
@@ -68,30 +68,30 @@ header {
     justify-content: space-between;
     /* gap: 200px; */
     align-items: center;
-  }
-  
-  .footer-data {
+}
+
+.footer-data {
     display: flex;
     height: 160px;
     width: 40px;
     align-items: start;
-  }
-  
-  .footer-links {
+}
+
+.footer-links {
     display: flex;
     flex-direction: row;
     gap: 100px;
     height: 190px;
-  }
-  
-  .footor-AallData {
+}
+
+.footor-AallData {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-  }
-  
-  .m-c-title {
+}
+
+.m-c-title {
     font-family: messina-sans;
     font-size: .7rem;
     letter-spacing: -.01em;
@@ -101,5 +101,4 @@ header {
     color: hsla(0, 0%, 100%, .75);
     margin: 0;
     padding: 0;
-  }
-  
+}
