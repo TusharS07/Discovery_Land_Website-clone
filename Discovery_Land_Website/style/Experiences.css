@@ -8,7 +8,7 @@ body {
     padding: 0%;
     margin: 0%;
     /* background-color: #111;*/
-    overflow-x: hidden; 
+    overflow-x: hidden;
     width: 100%;
 }
 
@@ -76,7 +76,7 @@ header {
     justify-content: center;
 }
 
-.heading{
+.heading {
     position: relative;
     z-index: 2;
 }
@@ -111,6 +111,7 @@ header {
     font-family: gt-sectra;
     font-weight: 200;
 }
+
 /****************************************************/
 .world-main {
     display: flex;
@@ -160,7 +161,8 @@ h3 {
 .golf-main {
     width: 100%;
     height: 1000px;
-    background-color: #f3f3f3;;
+    background-color: #f3f3f3;
+    ;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -217,7 +219,8 @@ h3 {
 .outdoor-main {
     width: 100%;
     height: 900px;
-    background-color: #f3f3f3;;
+    background-color: #f3f3f3;
+    ;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -269,6 +272,7 @@ h3 {
     line-height: 2;
     font-size: 19px;
 }
+
 /****************************************************/
 
 .footer-main {
