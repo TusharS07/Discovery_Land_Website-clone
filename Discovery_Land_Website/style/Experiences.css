@@ -7,14 +7,14 @@ body {
     display: block;
     padding: 0%;
     margin: 0%;
-    /* background-color: #111;
-    overflow-x: hidden; */
+    /* background-color: #111;*/
+    overflow-x: hidden; 
     width: 100%;
 }
 
 a {
     text-decoration: none;
-    /* color: white; */
+    color: white;
 }
 
 header {
@@ -22,6 +22,9 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 180px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
 }
 
 .mainheader {
@@ -48,7 +51,104 @@ header {
 
 /***********************************/
 
+.main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    /* width: 100vw; */
+    object-fit: cover;
+}
 
+.videodiv {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-heading {
+    display: flex;
+    height: 200px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    color: #fff;
+    line-height: 1.3;
+    font-size: 80px;
+    font-family: gt-sectra;
+    font-weight: 200;
+}
+
+/****************************************/
+
+.intro-msg {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-size: 45px;
+    /* font-weight: lighter; */
+    font-family: gt-sectra;
+    font-weight: 200;
+}
+/****************************************************/
+.world-main {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+}
+
+.world-sub {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    /* justify-content: space-between; */
+    gap: 50px;
+}
+
+.text-data {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 45px;
+}
+
+h3 {
+    font-family: gt-sectra;
+    font-weight: 200;
+    font-size: 45px;
+
+}
+
+.world-text {
+    color: #777;
+    line-height: 2;
+    font-size: 19px;
+}
 /****************************************************/
 
 .footer-main {
