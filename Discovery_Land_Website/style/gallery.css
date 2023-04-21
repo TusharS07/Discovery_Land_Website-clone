@@ -7,6 +7,9 @@ body {
   display: block;
   padding: 0%;
   margin: 0%;
+  /* background-color: #111;*/
+  overflow-x: hidden;
+  width: 100%;
 }
 
 a {
@@ -16,20 +19,20 @@ a {
 
 header {
   display: flex;
-  justify-content: end;
-  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  height: 180px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
 }
 
 .mainheader {
   position: absolute;
   z-index: 1;
-  margin-right: 140px;
+  margin-right: 100px;
 }
 
-.namingbar {
-  margin-top: 80px;
-  width: 100%;
-}
 
 .navbar {
   padding: 15px;
@@ -42,13 +45,9 @@ header {
 
 
 #logo {
-  position: absolute;
-  top: 12%;
-  left: 7%;
-  width: auto;
-  height: auto;
   cursor: pointer;
 }
+
 
 #name {
   position: absolute;
@@ -57,7 +56,7 @@ header {
   font-size: 1.6cm;
   font-family: serif;
   opacity: 80%;
-}
+} 
 
 
 
@@ -92,7 +91,7 @@ header {
 h2 {
   text-align: center;
   color: rgb(255, 255, 255);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   font-weight: 200;
   padding: 8% 25% 8% 25%;
 }
